@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         //Intent intent = new Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA);
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-
         startActivity(intent);
     }
 }
